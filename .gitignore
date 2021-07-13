@@ -1,33 +1,14 @@
-.gradle
-/build/
-!gradle/wrapper/gradle-wrapper.jar
-
-### STS ###
-.apt_generated
+**/target/
+/target/
+*/target/*
 .classpath
-.factorypath
 .project
 .settings
-.springBeans
-.sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Package Files #
+*.jar
+*.war
+*.ear
+
 *.iml
-*.ipr
-/out/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### Fortify ###
-*.fpr
-
-### Mac OSX ###
-.DS_Store
-LOG_DIRECTORY_IS_UNDEFINED/
+*.idea
